@@ -1,0 +1,126 @@
+#contenedor {
+    display: flex;
+}
+
+#listadoNoticias, #detalleNoticia {
+    width: 35%;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    margin-left: 5%;
+}
+
+#listadoNoticias div, #detalleNoticia {
+    border: 3px solid #ddd;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#listadoNoticias img, #detalleNoticia img {
+    max-width: 100%;
+    height: 200px;
+    border-radius: 5px;
+}
+
+h3 a {
+    color: #f90f0f;
+    text-decoration: none;
+}
+
+h3 a:hover {
+    text-decoration: underline;
+}
+
+p {
+    margin: 10px 0;
+}
+
+#detalleNoticia h2 {
+    color: #333;
+    margin-bottom: 15px;
+}
+
+#detalleNoticia div {
+    margin-bottom: 15px;
+    
+}
+
+#listadoNoticias div p {
+    color: #666;
+    font-size: 0.9em;
+}
+header {
+    background-color: rgb(233, 20, 20);
+    color: white;
+    text-align: left;
+    width: 100%;
+    padding: 3px 0;
+    display: flex; 
+    align-items: center; 
+}
+#logoHeader {
+    margin-left: 10px;
+    height: 50px; 
+    cursor: pointer;
+}
+
+
+footer {
+    background-color: rgb(233, 20, 20);
+    color: white;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 5px 0;
+    align-items: center; 
+}
+
+#paginacion {
+    display: inline-block;
+}
+
+
+#contenedor {
+    margin-bottom: 60px; 
+   
+}
+#detalleNoticia {
+    position: fixed; 
+    top: 34px; 
+    right: 20px;
+    width: 40%; 
+    max-height: 82vh; 
+    overflow: auto; 
+    
+    padding: 10px;
+    box-sizing: border-box;
+    margin-top: 60px;
+    display: none; 
+    border: 3px solid #ddd; 
+    border-radius: 5px;
+    margin-left: 9%;
+    margin-right: 10%;
+    
+    
+}
+#botonSubir {
+    position: fixed;
+    bottom: 50px; 
+    right: 50px;
+    background-color: #b6b4b4; 
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 50%;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 24px; 
+    z-index: 10;
+}
+
+#botonSubir:hover {
+    background-color: #c60e0e; 
+    color: rgb(255, 255, 255);
+}
+

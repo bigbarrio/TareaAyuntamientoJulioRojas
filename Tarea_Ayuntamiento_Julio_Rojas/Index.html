@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Portal de Noticias de Zaragoza</title>
+    <link rel="stylesheet" href="css.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+
+<body>
+    <header>
+        <img src="imgs/ayuntamiento.png" alt="Logo" id="logoHeader" onclick="location.reload();">
+    </header>
+    <div id="contenedor">
+        <div id="listadoNoticias"></div>
+        <div id="detalleNoticia"></div>
+    </div>
+    <button id="botonSubir" onclick="window.scrollTo({top: 0, behavior: 'smooth'});">
+        <span class="material-symbols-outlined">arrow_upward</span>
+    </button>
+    <footer>
+        <div id="paginacion">
+            <button id="btnAnterior" onclick="cambiarPagina(-1)">Anterior</button>
+            <span id="infoPagina"></span>
+            <button id="btnSiguiente" onclick="cambiarPagina(+1)">Siguiente</button>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
